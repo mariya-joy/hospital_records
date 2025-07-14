@@ -1,8 +1,10 @@
 import React from 'react'
+import HospitalNavbar from './HospitalNavbar'
 
 const ViewPatients = () => {
   return (
     <div>
+      <HospitalNavbar/>
       <table class="table table-dark table-striped">
         <thead>
           <tr>
